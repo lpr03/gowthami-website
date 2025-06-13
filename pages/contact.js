@@ -45,8 +45,9 @@ export default function Contact() {
         <section className="bg-[#636262] text-white py-20 px-6 text-center">
           <h1 className="text-4xl font-extrabold tracking-wide mt-5">Contact Us</h1>
           <p className="mt-4 text-gray-300 max-w-xl mx-auto">
-            We're here to help. Reach out to us for any inquiries, collaborations, or support.
+            We&apos;re here to help. Reach out to us for any inquiries, collaborations, or support.
           </p>
+
         </section>
 
         {/* Content */}

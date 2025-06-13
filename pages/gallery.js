@@ -1,10 +1,11 @@
 import Navbar from '../components/navbar';
 import Head from 'next/head';
+import Image from 'next/image';
 
 export default function Gallery() {
   const images = [
     '/image1.jpg',
-    'image2.jpg',
+    '/image2.jpg',
     '/image3.jpg',
     '/image4.jpg',
     '/image5.jpg',
@@ -15,7 +16,7 @@ export default function Gallery() {
 
   return (
     <div>
-        <Navbar/>
+      <Navbar />
       <Head>
         <title>Gallery - Gowthami Engineering Enterprises</title>
       </Head>
@@ -30,17 +31,18 @@ export default function Gallery() {
 
         <section className="max-w-6xl mx-auto py-16 px-6 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
           {images.map((src, index) => (
-            <div key={index} className="overflow-hidden rounded-xl shadow hover:shadow-xl transition">
-              <img
+            <div key={index} className="relative w-full h-60 rounded-xl shadow hover:shadow-xl overflow-hidden transition">
+              <Image
                 src={src}
                 alt={`Gallery Image ${index + 1}`}
-                className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
+                layout="fill"
+                objectFit="cover"
+                className="hover:scale-105 transition-transform duration-300"
               />
             </div>
           ))}
         </section>
       </main>
-   
     </div>
   );
 }
