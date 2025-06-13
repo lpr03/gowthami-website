@@ -31,6 +31,7 @@ export default function Home() {
   return (
     <div>
       <Head>
+        <meta name="google-site-verification" content="uOtlBqh3j1JvKTBIeF1XURNF9qjXXYWxauiBtPfppP8" />
         <title>Gowthami Engineering Enterprises</title>
       </Head>
 
