@@ -31,8 +31,36 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <meta name="google-site-verification" content="uOtlBqh3j1JvKTBIeF1XURNF9qjXXYWxauiBtPfppP8" />
-        <title>Gowthami Engineering Enterprises</title>
+        <title>Gowthami Engineering Enterprises | CNC Machining & Milling in Telangana</title>
+        <meta name="description" content="Gowthami Engineering Enterprises offers precision CNC machining, milling, tapping, and fabrication services in Telangana. Serving industries with excellence since 2012." />
+
+        <meta name="description" content="Gowthami Engineering Enterprises offers CNC machining, milling, and precision engineering in Hyderabad. Trusted industrial partner." />
+        <meta name="robots" content="index, follow" />
+        <meta name="keywords" content="Gowthami Engineering, Gowthami Engineering Enterprises, CNC, Milling, precision machining, Gowtami Engineering Enterprises" />
+        <meta name="author" content="Gowthami Engineering Enterprises" />
+        <meta property="og:title" content="Gowthami Engineering Enterprises" />
+        <meta property="og:description" content="CNC machining and precision engineering company in Hyderabad." />
+        <meta property="og:url" content="https://gowthami.dedyn.io" />
+        <meta property="og:type" content="website" />
+
+        <script type="application/ld+json">
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Gowthami Engineering Enterprises",
+  "url": "https://gowthami.dedyn.io",
+  "logo": "https://gowthami.dedyn.io/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91 9912670669",
+    "contactType": "customer service"
+  },
+  "sameAs": []
+}
+`}
+</script>
+
       </Head>
 
       <Navbar />
@@ -62,14 +90,32 @@ export default function Home() {
 
       {/* About Section */}
       <section className="px-6 py-16 bg-white text-gray-800 text-center">
-        <motion.h2 className="text-4xl font-bold mb-6" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.6 }}>
-          About Us
-        </motion.h2>
-        <p className="max-w-3xl mx-auto">
-          Gowthami Engineering Enterprises is a trusted name in manufacturing, delivering high-quality engineering solutions across industries.
-          With years of experience and a skilled team, we pride ourselves on precision, quality, and timely delivery.
-        </p>
-      </section>
+  <div>
+    <motion.h2
+      className="text-4xl font-bold mb-4"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 0.6 }}
+    >
+      About Us
+    </motion.h2>
+
+    <motion.h3
+      className="text-2xl font-semibold mb-6"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 0.8 }}
+    >
+      CNC Machining & Precision Engineering Company in Telangana
+    </motion.h3>
+  </div>
+
+  <p className="max-w-3xl mx-auto">
+    Gowthami Engineering Enterprises is a trusted name in manufacturing, delivering high-quality engineering solutions across industries.
+    With years of experience and a skilled team, we pride ourselves on precision, quality, and timely delivery.
+  </p>
+</section>
+
 
       {/* Services Section */}
       <section className="px-6 py-16 bg-gray-100 text-gray-800">
