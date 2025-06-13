@@ -163,13 +163,13 @@ export default function Home() {
                 icon: "🧾",
                 title: "GST Registered",
                 desc: "Compliant with Goods and Services Tax laws in India.",
-                reg: "GSTIN: 29ABCDE1234F1Z5",
+                reg: "GSTIN: 36AALFG5399R1Z9",
               },
               {
                 icon: "🏢",
                 title: "Udyam Registered",
                 desc: "Recognized under MSME (Udyam) by Govt. of India.",
-                reg: "Udyam Reg. No: UDYAM-KR-12-3456789",
+                reg: "Udyam Reg. No: UDYAM-TS-20-0052284",
               },
               {
                 icon: "✅",
