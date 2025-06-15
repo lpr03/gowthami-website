@@ -9,17 +9,12 @@ import { useState } from 'react';
 
 const machineryData = [
   ["CVM 1050/CNC Machine", "COSMOS", 1],
-  ["CVM800/CNC Machine", "COSMOS", 1],
-  ["CVM640/CNC Machine", "COSMOS", 1],
+  ["CVM 800/CNC Machine", "COSMOS", 1],
+  ["CVM 640/CNC Machine", "COSMOS", 1],
   ["Milling Machine", "BFW", 3],
   ["Milling Machine", "HMT", 1],
-  ["Tapping Machine", "JYOTI", 1],
-  ["Tapping Machine", "TAPAX", 1],
-  ["Drilling Machine", "WINDSON", 2],
-  ["Drilling Machine", "SOHIT", 2],
-  ["Drilling Machine", "ITCO", 1],
-  ["Drilling Machine", "SIGMA", 2],
-  ["Drilling Machine", "KM PANCHAL", 1],
+  ["Tapping Machines", "TAPAX, JYOTI", 3],
+  ["Drilling Machines", "WINDSON, SOHIT, ITCO, SIGMA, KM PANCHAL", 8],
   ["Grinding Machine", "RAYMOND", 2],
   ["Cutting Machine", "SIGMA", 1],
 ];
@@ -288,7 +283,7 @@ export default function Home() {
             <ul className="space-y-2">
               {["About", "Services", "Gallery", "Contact"].map((linkText) => (
                 <li key={linkText}>
-                  <Link href={`#${linkText.toLowerCase()}`} className="hover:text-white">
+                  <Link href={`/${linkText.toLowerCase()}`} className="hover:text-white">
                     {linkText}
                   </Link>
                 </li>
