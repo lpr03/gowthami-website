@@ -18,6 +18,7 @@ const machineryData = [
   ["Drilling Machine", "WINDSON", 2],
   ["Drilling Machine", "SOHIT", 2],
   ["Drilling Machine", "ITCO", 1],
+  ["Drilling Machine", "SIGMA", 2],
   ["Drilling Machine", "KM PANCHAL", 1],
   ["Grinding Machine", "RAYMOND", 2],
   ["Cutting Machine", "SIGMA", 1],
@@ -42,6 +43,8 @@ export default function Home() {
         <meta property="og:description" content="CNC machining and precision engineering company in Hyderabad." />
         <meta property="og:url" content="https://gowthami.dedyn.io" />
         <meta property="og:type" content="website" />
+
+        <link rel="icon" href="/logo.png" type="image/png" />
 
         <script type="application/ld+json">
 {`
@@ -134,9 +137,10 @@ export default function Home() {
                 desc: "Tailor-made fabrication services to meet client specifications with accuracy.",
               },
               {
-                title: "Maintenance & Repair",
-                desc: "Reliable maintenance solutions to extend the life and performance of machinery.",
-              },
+                title: "Drilling, Tapping & Assembling",
+                desc: "Expert drilling, precision tapping, and assembling services tailored for industrial engineering needs."
+              }
+
             ].map((service, i) => (
               <motion.div
                 key={i}
@@ -222,7 +226,7 @@ export default function Home() {
                 icon: "✅",
                 title: "ISO 9001:2015 Certified",
                 desc: "Certified for quality management standards.",
-                reg: "Cert. No: Q-2007",
+                reg: "Cert. No: Q-200711R",
               },
             ].map((cert, i) => (
               <motion.div

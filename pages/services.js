@@ -1,4 +1,5 @@
 "use client";
+
 import Navbar from "@/components/navbar";
 import { motion } from "framer-motion";
 
@@ -38,37 +39,32 @@ const services = [
 export default function ServicesPage() {
   return (
     <div>
-      <Navbar/>
-    <main className="bg-[#636262] text-gray-900 py-16 px-6">
-      <div className="max-w-6xl mx-auto">
-        <motion.h1
-          className="text-4xl font-bold text-center mb-12 text-white mt-8"
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-        >
-          Our Services
-        </motion.h1>
+      <Navbar />
 
-        <div className="grid md:grid-cols-2 gap-10">
+      <main className="bg-gray-50 text-gray-800 min-h-screen">
+        <section className="bg-[#636262] text-white py-20 px-6 text-center">
+          <h1 className="text-4xl font-extrabold tracking-wide">Our Services</h1>
+          <p className="mt-4 text-gray-300 max-w-xl mx-auto">
+            Explore the engineering services we offer to support your manufacturing needs.
+          </p>
+        </section>
+
+        <section className="max-w-6xl mx-auto py-8 px-6 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <motion.div
               key={index}
-              className="border border-gray-200 shadow-md rounded-xl p-6 bg-[#dddddd] hover:shadow-lg transition"
-              initial={{ opacity: 0, y: 40 }}
+              className="bg-white rounded-xl p-6 shadow hover:shadow-lg border border-gray-200 transition"
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1, duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-2xl font-semibold mb-2 text-[#000000]">
-                {service.title}
-              </h2>
-              <p className="text-gray-700">{service.description}</p>
+              <h2 className="text-xl font-bold text-gray-900 mb-2">{service.title}</h2>
+              <p className="text-gray-700 text-sm">{service.description}</p>
             </motion.div>
           ))}
-        </div>
-      </div>
-    </main>
+        </section>
+      </main>
     </div>
   );
 }
