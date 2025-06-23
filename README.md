@@ -1,9 +1,9 @@
-# Gowthami Engineering Enterprises
+# Gowtami Engineering Enterprises
 
-Official website for **Gowthami Engineering Enterprises**, a trusted provider of CNC machining, milling, and precision manufacturing solutions based in Telangana, India.
+Official website for **Gowtami Engineering Enterprises**, a trusted provider of CNC machining, milling, and precision manufacturing solutions based in Telangana, India.
 
 ### Live Website
-🔗 [gowthami.dedyn.io](https://gowtami.dedyn.io)
+🔗 [gowtami.dedyn.io](https://gowtami.dedyn.io)
 
 ### Project Overview
 
