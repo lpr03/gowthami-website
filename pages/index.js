@@ -27,16 +27,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Gowthami Engineering Enterprises | CNC Machining & Milling in Telangana</title>
-        <meta name="description" content="Gowthami Engineering Enterprises offers precision CNC machining, milling, tapping, and fabrication services in Telangana. Serving industries with excellence since 2012." />
+        <title>Gowtami Engineering Enterprises | CNC Machining & Milling in Telangana</title>
+        <meta name="description" content="Gowtami Engineering Enterprises offers precision CNC machining, milling, tapping, and fabrication services in Telangana. Serving industries with excellence since 2012." />
 
-        <meta name="description" content="Gowthami Engineering Enterprises offers CNC machining, milling, and precision engineering in Hyderabad. Trusted industrial partner." />
+        <meta name="description" content="Gowtami Engineering Enterprises offers CNC machining, milling, and precision engineering in Hyderabad. Trusted industrial partner." />
         <meta name="robots" content="index, follow" />
-        <meta name="keywords" content="Gowthami Engineering, Gowthami Engineering Enterprises, CNC, Milling, precision machining, Gowtami Engineering Enterprises" />
-        <meta name="author" content="Gowthami Engineering Enterprises" />
-        <meta property="og:title" content="Gowthami Engineering Enterprises" />
+        <meta name="keywords" content="Gowtami Engineering, Gowtami Engineering Enterprises, CNC, Milling, precision machining, Gowtami Engineering Enterprises" />
+        <meta name="author" content="Gowtami Engineering Enterprises" />
+        <meta property="og:title" content="Gowtami Engineering Enterprises" />
         <meta property="og:description" content="CNC machining and precision engineering company in Hyderabad." />
-        <meta property="og:url" content="https://gowthami.dedyn.io" />
+        <meta property="og:url" content="https://gowtami.dedyn.io" />
         <meta property="og:type" content="website" />
 
         <link rel="icon" href="/logo.png" type="image/png" />
@@ -46,9 +46,9 @@ export default function Home() {
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Gowthami Engineering Enterprises",
-  "url": "https://gowthami.dedyn.io",
-  "logo": "https://gowthami.dedyn.io/logo.png",
+  "name": "Gowtami Engineering Enterprises",
+  "url": "https://gowtami.dedyn.io",
+  "logo": "https://gowtami.dedyn.io/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91 9912670669",
@@ -75,7 +75,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="text-5xl md:text-7xl font-bold mb-4">Gowthami Engineering Enterprises</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mb-4">Gowtami Engineering Enterprises</h1>
           <p className="text-xl text-gray-200">Precision Manufacturing with Excellence</p>
           <p className="text-lg text-gray-200">Since 2012</p>
           <Link href="/contact#quote-form">
@@ -109,7 +109,7 @@ export default function Home() {
   </div>
 
   <p className="max-w-3xl mx-auto">
-    Gowthami Engineering Enterprises is a trusted name in manufacturing, delivering high-quality engineering solutions across industries.
+    Gowtami Engineering Enterprises is a trusted name in manufacturing, delivering high-quality engineering solutions across industries.
     With years of experience and a skilled team, we pride ourselves on precision, quality, and timely delivery.
   </p>
 </section>

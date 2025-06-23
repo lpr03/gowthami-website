@@ -52,7 +52,7 @@ export default function Navbar() {
           href="/"
           className="text-3xl font-extrabold tracking-wide hover:text-gray-400 transition"
         >
-          Gowthami
+          Gowtami
         </Link>
 
         {/* Desktop Menu */}

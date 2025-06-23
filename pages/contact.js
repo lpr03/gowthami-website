@@ -37,7 +37,7 @@ export default function Contact() {
     <div>
       <Navbar />
       <Head>
-        <title>Contact Us - Gowthami Engineering Enterprises</title>
+        <title>Contact Us - Gowtami Engineering Enterprises</title>
       </Head>
 
       <main className="bg-gray-50 text-gray-800 min-h-screen">
@@ -55,7 +55,7 @@ export default function Contact() {
           {/* Contact Info */}
           <div>
             <h2 className="text-2xl font-bold mb-4">Our Unit</h2>
-            <p className="mb-2">📍 Gowthami Engineering Enterprises</p>
+            <p className="mb-2">📍 Gowtami Engineering Enterprises</p>
             <p className="mb-2">Plot Number: 51, TSIIC Industrial Park, Rayarao Peta, Bibinagar Mandal, Yadadri District, Telangana, 508126.</p>
             <p className="mb-2">📞 +91 99126 70669, 98480 39243</p>
             <p className="mb-2">✉️ gowtamieng@gmail.com</p>
@@ -106,7 +106,7 @@ export default function Contact() {
         {/* Google Map */}
         <section className="px-6 pb-16">
           <iframe
-            title="Gowthami Engineering Enterprises Location"
+            title="Gowtami Engineering Enterprises Location"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.14798137549!2d78.7114467!3d17.500448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9d4acd034119%3A0x8d0e10fe7d64d78f!2sGOWTHAMI%20ENGINEERING%20ENTERPRISES!5e0!3m2!1sen!2sin!4v1748846890711!5m2!1sen!2sin"
             width="100%"
             height="350"

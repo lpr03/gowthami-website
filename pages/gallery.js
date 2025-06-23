@@ -16,7 +16,7 @@ export default function Gallery() {
     <div>
       <Navbar />
       <Head>
-        <title>Gallery - Gowthami Engineering Enterprises</title>
+        <title>Gallery - Gowtami Engineering Enterprises</title>
       </Head>
 
       <main className="bg-gray-50 text-gray-800 min-h-screen">

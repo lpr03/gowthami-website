@@ -7,7 +7,7 @@ export default function About() {
     <div>
       <Navbar/>
       <Head>
-        <title>About Us - Gowthami Engineering Enterprises</title>
+        <title>About Us - Gowtami Engineering Enterprises</title>
       </Head>
 
       <main className="bg-gray-50 text-gray-800">
@@ -22,7 +22,7 @@ export default function About() {
           <div>
             <h2 className="text-2xl font-bold  mb-4">Overview</h2>
             <p>
-              Gowthami Engineering Enterprises is a trusted name in precision manufacturing and engineering services. Established in <strong>2012</strong>, we are committed to delivering quality machining solutions and component fabrication for various industrial sectors. We cater to a wide client base across India.
+              Gowtami Engineering Enterprises is a trusted name in precision manufacturing and engineering services. Established in <strong>2012</strong>, we are committed to delivering quality machining solutions and component fabrication for various industrial sectors. We cater to a wide client base across India.
             </p>
           </div>
 
